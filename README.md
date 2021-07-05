@@ -1,6 +1,6 @@
-## :rocket: **Notas**
+## :rocket: **Notes**
 
-Projeto de anotações feito com React, seu objetivo foi testar os componentes, estados e propriedes. 
+Annotation project done with React, its purpose is to test components, states and properties.
 
 <div align="center">
     <img alt="Notas" title="Notas" src="projeto.gif" />
