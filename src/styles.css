@@ -8,12 +8,10 @@ html {
 }
 body {
   background: #eee;
-  padding: 0 16px;
 }
 
 header {
   background-color: #f5ba13;
-  margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
@@ -61,17 +59,23 @@ footer p {
   margin-right: 20px;
   color: #f5ba13;
   border: none;
-  width: 36px;
   height: 36px;
   cursor: pointer;
   outline: none;
   background: #fff;
 }
 
+div.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 form {
   position: relative;
-  width: 480px;
-  margin: 30px auto 20px auto;
+  max-width: 480px;
+  margin: 30px 10px 20px;
   background: #fff;
   padding: 15px;
   border-radius: 7px;

@@ -18,7 +18,7 @@ export function CreateArea(props) {
   }
 
   return (
-    <div>
+    <div className="center">
       <form>
         <input onChange={handleChange} name="title" placeholder="Título" value={createNote.title}/>
         <textarea onChange={handleChange} name="content" placeholder="Faça uma nota..." rows="3" value={createNote.content}/>
